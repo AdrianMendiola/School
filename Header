@@ -1,0 +1,18 @@
+class Tictactoe
+{
+private:
+	int player, choice, i;
+	bool play;
+	char mark;
+
+
+public:
+
+	class Invalidmove{};
+	Tictactoe();
+	char square[9];
+	void Game();
+	int checkwin();
+	void Gameboard(char square[]);
+
+};
